@@ -6,12 +6,13 @@
     "name": "Ferenc Farkas",
     "url": "https://happygastro.hu"
   },
+  "keywords": ["file", "file-storage", "file-hash", "hash-storage", "prevent duplicated files", "file duplication", "file vault"],
   "repository": {
     "type": "git",
     "url": "https://github.com/Happy-Gastro/file-hash-vault.git"
   },
   "license": "ISC",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "main": "src/index.js",
   "scripts": {
     "compile": "tsc src/index.ts",

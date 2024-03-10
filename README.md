@@ -1,6 +1,6 @@
 # Description
 
-Write a class (called “FS”) in TypeScript, that takes a directory as an argument which will act as an interface to a file system.
+A class (called “FS”) in TypeScript, that takes a directory as an argument which will act as an interface to a file system.
 
 We need two methods in this class:
 
@@ -8,7 +8,7 @@ We need two methods in this class:
 
 <code>get(filename)</code></strong>: Returns the content from the filename
 
-However, people are writing the same data over & over, but using different file names. Our product managers have come up with a method for saving a lot of space. So instead of storing the content as a file using the given filename, store the content using the hash of that content.
+However, people are writing the same data over & over, but using different file names. So instead of storing the content as a file using the given filename, store the content using the hash of that content.
 
 Let’s assume md5 is a "perfect" hashing function md5("content") -> "abcdef123456"
 
