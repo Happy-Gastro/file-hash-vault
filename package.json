@@ -1,0 +1,31 @@
+{
+  "name": "@happy-gastro/file-hash-vault",
+  "description": "Instead of storing the content as a file using the given filename, store the content using the hash of that content.",
+  "author": {
+    "email": "ferenc.farkas@happygastro.hu",
+    "name": "Ferenc Farkas",
+    "url": "https://happygastro.hu"
+  },
+  "version": "1.2.4",
+  "main": "src/index.js",
+  "scripts": {
+    "compile": "tsc src/index.ts",
+    "run-js": "node src/index.js",
+    "run-ts": "node --require ts-node/register src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Happy-Gastro/csr-generator.git"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,8 @@
+/package-lock.json
+/node_modules/
+.idea
+.idea/
+
+# Project exclude paths
+/src/fs.class.js
+/src/index.js
