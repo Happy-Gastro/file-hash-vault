@@ -12,7 +12,7 @@
     "url": "https://github.com/Happy-Gastro/file-hash-vault.git"
   },
   "license": "ISC",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "main": "src/index.js",
   "scripts": {
     "compile": "tsc src/index.ts",
